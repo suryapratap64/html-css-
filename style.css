@@ -1,0 +1,201 @@
+/* reset css */
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(25, 23, 23);
+    background-repeat: repeat-x;
+
+
+    color: white;
+
+
+}
+
+.left {
+    border-radius: 3px;
+
+    position: absolute;
+    display: inline-block;
+    left: 34px;
+    top: 20px;
+
+
+
+}
+
+.mid {
+    display: flex;
+
+    display: block;
+    margin: 20px auto;
+    width: 68%;
+
+}
+
+.right {
+    position: absolute;
+    width: 21%;
+    right: 33px;
+    top: 20px;
+    display: inline-block;
+
+}
+
+.navbar {
+    display: inline-block;
+
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+
+}
+
+.navbar li a {
+    background-color: rgb(211, 51, 51);
+    border-radius: 20px;
+    color: rgb(242, 235, 235);
+    text-decoration: none;
+    padding: 2px 13px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(9, 9, 10);
+
+}
+
+.left img {
+    padding: 1%;
+    height: 69px;
+    width: 137px;
+}
+
+.left div {
+    text-align: center;
+    font-size: 19px;
+}
+
+.btn {
+    margin: 15px 10px;
+    color: white;
+    background-color: rgb(186, 64, 4);
+    padding: 5px 14px;
+    /* border: 4px solid gray; */
+    border-radius: 21px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: aqua;
+}
+
+.container {
+    border: 2px solid red;
+    margin: 300px 200px;
+    padding: 5px 20px;
+    width: 34%;
+}
+
+.from-group input {
+
+
+    color: rgba(255, 255, 255, 0.86);
+    background-color: black;
+    text-align: center;
+    width: 304px;
+    padding: 6px;
+    border-radius: 40px;
+    border: 2px solid green;
+    margin: 3px auto;
+
+}
+
+.container h3 {
+    text-align: center;
+
+}
+
+.container button {
+    display: block;
+    width: 285px;
+    margin: 20px auto;
+
+
+}
+
+.boxm {
+    height: 500px;
+    margin: 30px 4px;
+    width: 100%;
+    height: 1000px;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box1 {
+    height: 440px;
+    display: block;
+    margin: 6px 5px;
+    padding: 4px;
+    /* border: 2px solid #66e3ece6; */
+    transition: ease-in 2s ease-in-out 0.2s;
+
+
+}
+.box1:hover{
+    background:transparent;
+    
+
+}
+
+.box2 img {
+   
+    height: 285px;
+    width: 201px;
+    display: block;
+    border: 2px solid #66e3ece6;
+
+
+}
+
+.box3 {
+    padding: 0px 4px;
+   
+    text-align: center;
+    margin: 1px 1px;
+    height: 33px;
+    width: 200px;
+    position: relative;
+    display: block;
+   
+}
+
+.box4 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 1px 1px;
+    height: 109px;
+    width: 200px;
+    position: relative;
+    display: block;
+}
+.wp{
+    padding: 10px 15px;
+    min-width: 40px;
+    min-height: 40px;
+    display: block;
+    border: 1px solid rgba(0,0,0,.2);
+    margin: 3px;
+   
+    text-align: center;
+
+
+}
